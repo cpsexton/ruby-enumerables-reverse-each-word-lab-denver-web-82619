@@ -1,18 +1,18 @@
 def reverse_each_word(source)
-  original = source.split(" ")
+  original = source.split(' ')
   newone = []
   original.each do|source|
     newone << source.reverse
   end
-  newone.join(" ")
+  newone.join(' ')
 end
 
 def reverse_each_word(source)
-  original = source.split(" ")
+  original = source.split(' ')
   newone = []
   original.collect do|source|
     newone << source.reverse
   end
-  newone.join(" ")
+  newone.join(' ')
 end
   
